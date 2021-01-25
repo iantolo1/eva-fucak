@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eva Fucak</title>
+    <link rel="shortcut icon"  type="image/x-icon" href="favicon.svg">
+  </head>
+  <body>
+    
+    <div class="border trigger">
+      <div class="cursor"></div>
+      <div class="wrap1" id="#wrap1">
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill=" #3b589a" fill-opacity="1" d="M0,160L40,170.7C80,181,160,203,240,202.7C320,203,400,181,480,192C560,203,640,245,720,245.3C800,245,880,203,960,186.7C1040,171,1120,181,1200,202.7C1280,224,1360,256,1400,272L1440,288L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+
+        <main id="main" id="main">
+       
+        
+        <nav>
+          <ul class="nav-list nav-links">
+            <li class="li1 tracking-in-contract">
+              <a href="#services">Services</a>
+            </li>
+            <li class="li1 li2 tracking-in-contract">
+              <a href="#where">Locations</a>
+            </li>
+            <li class="li1 li3 tracking-in-contract">
+              <a href="#contact">Contact</a>
+            </li>
+            <li class="li1 li2  tracking-in-contract">
+              <a class="li4" href="#wrap1">Home</a>
+            </li>
+          </ul>
+          <div class="burger">
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+          </div>
+        </nav>
+        <div class="parag1">
+          <div class="left">
+            <h1 class="head1">Hello there</h1>
+            <p class="par1">
+              I’m <span class="spn1">Eva</span> and i’m a tour guide fluent in <br />
+              both English and French,<br />
+              with more than five years of experience.<br />I am doing tours in
+              Rijeka, Istria and Zagreb.,<br />
+              Lets experience Croatia together, man.
+            </p>
+            <p class="p2 myElement">Scroll down fore more</p>
+          </div>
+          <div class="image1">
+            <img
+              class="gsap1"
+              src="img1.png"
+              alt="image of some tourists in masks"
+            />
+          </div>
+        </div>
+        
+        
+        <div class="hero"></div>
+      </main>
+      </div>
+      <section id="services" class="services">
+       
+        <div class="wrapper2">
+          <div class="serv">
+            <div class="left2">
+              <h1 class="gsap2 serv_header">Services</h1>
+              <p class="par2">
+                We provide a variety of services<br />
+                wich include booking hotels<br />
+                or finding the best acomodation <br />
+                making custom tours <br />
+                for individuals and small groups<br />
+                but also large grups with organised bus rides
+              </p>
+            </div>
+            <div>
+              <img class="img3" src="img3-removebg-preview.png" alt="illustration of services" />
+            </div>
+          </div>
+         
+        
+        </div>
+      </section>
+      <section id="where" class="where">
+        <div class="left3">
+          <h1 class="head3">Where to?</h1>
+
+          <p class="par3">
+            walking around Rijeka<br />
+            or discovering beauty<br />
+            of Istria? Want an adventure<br />
+            in Plitvice Lakes?<br />
+            It’s all your choice
+          </p>
+          <a href="./scroll_bar/index.html" class="btn2">Let's Go </a>
+        </div>
+        <div>
+          <img class="img2" src="img2-removebg-preview.png" alt="a guy looking to travel" />
+        </div>
+        
+      </section>
+    </div>
+
+    <div id="contact" class="contact">
+      <h3 class="header-contact">Let's Talk</h3>
+      <form method="POST" action="#" name="contact_form"   data-netlify='true'>
+        <label for="first_name" class="fname">Your Name</label>
+        <input
+          class="inpt"
+          name="first_name"
+          type="text"
+          required
+          placeholder="Leslie Knope"
+        />
+        <br />
+
+        <label class="em" for="email">Email</label>
+        <input
+          class="inpt"
+          name="email"
+          type="email"
+          required
+          placeholder="parksandrec@yahoo.com"
+        />
+        <br />
+        <label  for="message">Message</label>
+        <br>
+        <textarea          
+          name="message"
+          cols="20"
+          rows="3"
+          placeholder="message"
+          required
+          ></textarea>        
+        </textarea>
+        <div class="center">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+      <div class="img4">
+        <img class="image4" src="img4-removebg-preview.png" alt="" />
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
